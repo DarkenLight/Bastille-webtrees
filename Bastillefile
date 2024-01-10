@@ -1,6 +1,6 @@
 INCLUDE DarkenLight/Bastille-nginx
 PKG nano bash nginx php82 git-lite
-PKG php82-extensions php82-mbstring php82-gd php82-exif php82-mysqli php82-zlib
+PKG php82-extensions php82-mbstring php82-gd php82-exif php82-mysqli php82-zlib php82-curl php82-fileinfo php82-intl php82-zip
 CMD cp /usr/local/etc/php.ini-development /usr/local/etc/php.ini && echo "Creating Default php.ini file"
 SERVICE php-fpm onestart
 SERVICE php-fpm onestop
